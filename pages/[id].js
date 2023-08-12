@@ -1,4 +1,5 @@
 import { Fragment } from "react";
+import Error from 'next/error'
 import Head from "next/head";
 import { getDatabase, getPage, getBlocks } from "../lib/notion";
 import Link from "next/link";
@@ -203,7 +204,7 @@ const renderBlock = (block) => {
 
 export default function Post({ page, blocks }) {
   if (!page || !blocks) {
-    return <div />;
+    return <Error statusCode="404" />;
   }
   return (
     <div>
