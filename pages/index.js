@@ -19,7 +19,7 @@ export default function Home({ posts }) {
         <header className={styles.header}>
           <div className={styles.logos}>
             <Image
-              src="/../public/hovanhoa-notion.jpg"
+              src="/hovanhoa-notion.jpg"
               width="80"
               height="80"
             />
