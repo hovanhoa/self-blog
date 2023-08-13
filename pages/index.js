@@ -7,6 +7,23 @@ import styles from "./index.module.css";
 
 export const databaseId = process.env.NOTION_DATABASE_ID;
 
+function ArrowIcon() {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 12 12"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M2.07102 11.3494L0.963068 10.2415L9.2017 1.98864H2.83807L2.85227 0.454545H11.8438V9.46023H10.2955L10.3097 3.09659L2.07102 11.3494Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+}
+
 export default function Home({ posts }) {
   return (
     <div>
@@ -38,17 +55,16 @@ export default function Home({ posts }) {
             <br/>
             <br/>
             Thank you for visiting. Have a good day👌
-            {/* <a href={`https://www.notion.so/${databaseId}`}>this table</a>. Get
-            the source code on{" "}
-            <a href="https://github.com/samuelkraft/notion-blog-nextjs">
-              Github
-            </a>{" "}
-            or read{" "}
-            <a href="https://samuelkraft.com/blog/building-a-notion-blog-with-public-api">
-              my blogpost
-            </a>{" "}
-            on building your own. */}
           </p>
+          <a
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://github.com/hovanhoa"
+          >
+            <ArrowIcon/>
+            <span className="h-7 ml-2">&nbsp;&nbsp;&nbsp;follow me</span>
+          </a>
         </header>
 
         <h2 className={styles.heading}>All Posts</h2>
