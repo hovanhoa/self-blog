@@ -63,7 +63,7 @@ export default function Home({ posts }) {
             href="https://github.com/hovanhoa"
           >
             <ArrowIcon/>
-            <span className="h-7 ml-2">&nbsp;&nbsp;&nbsp;follow me</span>
+            <span className="h-7 ml-2">&nbsp;&nbsp;follow me</span>
           </a>
         </header>
 
