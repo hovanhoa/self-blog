@@ -36,7 +36,7 @@ export default function Home({ posts }) {
         <header className={styles.header}>
           <div className={styles.logos}>
             <Image
-              src="/hovanhoa-notion.jpg"
+              src="/hovanhoa-notion.png"
               width="80"
               height="80"
             />
