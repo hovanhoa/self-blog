@@ -49,24 +49,31 @@ export default function Home({ posts }) {
             </svg>
             <h2>hey, I'm Robert 👋</h2>
           </div>
-          <p>
             I'm Software Engineer with an academic background in Computer Science and a passion for problem solving and software development. 
-            I've been working on Odoo app development for one year now.
+            I've been working on Odoo app development more than one year now.
             <br/>
             <br/>
-            Thank you for visiting. Have a good day👌
-          </p>
+            Skills & Stacks: Python, Javascript, PostgreSQL, Docker<br/> 
+          <a
+            className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://file.notion.so/f/f/39d66fae-bf09-4f67-b53e-c713eb27b7d7/fe6ca1f9-97b6-44b7-918a-d699041a78c8/HoVanHoa_Resume.pdf?id=d1579b24-a8d0-4ba9-8fa5-5fd83076657e&table=block&spaceId=39d66fae-bf09-4f67-b53e-c713eb27b7d7&expirationTimestamp=1693735200000&signature=yZAkGahIOgIxS6l8YKFKwVMBuJ2OJ_AawePufIXDOSA&downloadName=HoVanHoa_Resume.pdf"
+          >
+            <span className="h-7 ml-2">Resume (PDF)</span>
+          </a>
           <a
             className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
             rel="noopener noreferrer"
             target="_blank"
             href="https://github.com/hovanhoa"
           >
-            <ArrowIcon/>
-            <span className="h-7 ml-2">&nbsp;&nbsp;follow me</span>
+            <span className="h-7 ml-2">&nbsp;&nbsp;Github</span>
           </a>
+          <br/>
+          <br/>
+          Thank you for visiting. Have a good day👌
         </header>
-
         <h2 className={styles.heading}>All Posts</h2>
         <ol className={styles.posts}>
           {posts.map((post) => {
