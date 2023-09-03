@@ -9,8 +9,12 @@
   },
   "dependencies": {
     "@notionhq/client": "^2.2.10",
+    "@react-pdf-viewer/core": "3.6.0",
+    "@react-pdf-viewer/default-layout": "3.6.0",
     "next": "13.1.6",
+    "pdfjs-dist": "^2.15.349",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-pdf": "^7.3.3"
   }
 }
