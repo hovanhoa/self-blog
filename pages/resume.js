@@ -16,7 +16,7 @@ export default function Resume() {
         workerUrl={`https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js`}
       >
         <Viewer
-          fileUrl="/resumes/HoVanHoa_Resume.pdf"
+          fileUrl="/resumes/hovanhoa_resume.pdf"
           plugins={[
             // Register plugins
             defaultLayoutPluginInstance,
