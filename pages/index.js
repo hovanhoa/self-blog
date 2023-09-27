@@ -47,10 +47,9 @@ export default function Home({ posts }) {
               viewBox="12 0.18999999999999906 487.619 510.941"
             >
             </svg>
-            <h2>hey, I'm Robert 👋</h2>
+            <h2>hey, I'm Hồ Văn Hòa 👋</h2>
           </div>
             I'm Software Engineer with an academic background in Computer Science and a passion for problem solving and software development. 
-            I've been working on Odoo app development more than one year now.
             <br/>
             <br/>
             Skills & Stacks: Python, Javascript, PostgreSQL, Docker<br/> 
