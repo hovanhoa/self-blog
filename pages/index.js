@@ -28,7 +28,7 @@ export default function Home({ posts }) {
   return (
     <div>
       <Head>
-        <title>Robert Ho</title>
+        <title>Hồ Văn Hòa</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
